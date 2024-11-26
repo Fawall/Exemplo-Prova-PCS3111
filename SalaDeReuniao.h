@@ -23,6 +23,7 @@ public:
 
     double getPreco();
     string getNome();
+    
 
 // DEFINA ATRIBUTOS SE NECESSARIO
 };

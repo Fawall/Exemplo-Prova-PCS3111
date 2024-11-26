@@ -41,3 +41,4 @@ double SalaDeReuniao::getPreco(){
 string SalaDeReuniao::getNome(){
     return this->nome;
 }
+
