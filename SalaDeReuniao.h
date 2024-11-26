@@ -21,6 +21,9 @@ public:
     static void setPrecoPorMetroQuadrado(double valor);
     static double getPrecoPorMetroQuadrado();
 
+    double getPreco();
+    string getNome();
+
 // DEFINA ATRIBUTOS SE NECESSARIO
 };
 

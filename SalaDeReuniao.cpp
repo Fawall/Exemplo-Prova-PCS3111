@@ -31,5 +31,13 @@ void SalaDeReuniao::setPrecoPorMetroQuadrado(double valor) {
 
 double SalaDeReuniao::getPrecoPorMetroQuadrado() {
     // ALTERE
-    return 0;
+    return SalaDeReuniao::preco;
+}
+
+double SalaDeReuniao::getPreco(){
+    return metragem * preco;
+}
+
+string SalaDeReuniao::getNome(){
+    return this->nome;
 }
