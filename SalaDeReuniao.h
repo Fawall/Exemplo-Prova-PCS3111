@@ -2,11 +2,18 @@
 #define SALADEREUNIAO_H
 
 #include <string>
+#include "Sala.h"
 
 using namespace std;
 
 // COMPLETE A DEFINICAO DA CLASSE
-class SalaDeReuniao {
+class SalaDeReuniao : Sala {
+
+private:
+    string nome;
+    int metragem;
+    static double preco;
+
 public:
     SalaDeReuniao(string nome, int metragem);
     virtual ~SalaDeReuniao();
