@@ -38,7 +38,7 @@ void SalaDeTrabalhoCompartilhada::reservar(Mesa* m) {
 
 void SalaDeTrabalhoCompartilhada::reservar() {
 
-    try{
+    try {
         vector<Mesa* > *mesasDaSala = getMesas();
 
         for(unsigned int i = 0; i < mesasReservadas->size(); i++){
@@ -46,13 +46,12 @@ void SalaDeTrabalhoCompartilhada::reservar() {
         }
 
     }
-    catch(logic_error *e){
-        cout << e->what() << endl;
-    }
     catch(invalid_argument *e){
         cout << e->what() << endl;
     }
-
+    catch(logic_error *e){
+        cout << e->what() << endl;
+    }
 
     // IMPLEMENTE USANDO reservar(Mesa* m)
 }

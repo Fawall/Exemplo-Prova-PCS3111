@@ -8,7 +8,7 @@
 using namespace std;
 
 // COMPLETE A DEFINICAO DA CLASSE
-class SalaDeTrabalhoCompartilhada : SalaDeTrabalho  {
+class SalaDeTrabalhoCompartilhada : public SalaDeTrabalho  {
 
 private:
     string nome;
