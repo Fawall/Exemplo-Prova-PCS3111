@@ -38,7 +38,5 @@ double SalaDeReuniao::getPreco(){
     return metragem * preco;
 }
 
-string SalaDeReuniao::getNome(){
-    return this->nome;
-}
 
+void imprimir();

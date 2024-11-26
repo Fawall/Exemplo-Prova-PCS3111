@@ -7,7 +7,7 @@
 using namespace std;
 
 // COMPLETE A DEFINICAO DA CLASSE
-class SalaDeReuniao : Sala {
+class SalaDeReuniao : public Sala {
 
 private:
     string nome;
@@ -22,7 +22,7 @@ public:
     static double getPrecoPorMetroQuadrado();
 
     double getPreco();
-    string getNome();
+
     
 
 // DEFINA ATRIBUTOS SE NECESSARIO
